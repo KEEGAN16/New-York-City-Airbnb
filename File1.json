@@ -1,0 +1,90 @@
+{
+  "name": "Cozy Apartment in Downtown",
+  "guestIncluded": 2,
+  "price": 100.0,
+  "minimumNights": 2,
+  "availability": 30,
+  "numberOfReviews": 5,
+  "lastReview": { "$date": "2023-12-31T00:00:00Z" },
+  "Neighborhood": [
+    {
+      "neighborhood_id": 1,
+      "neighborhoodName": "Downtown",
+      "boroughName": "Manhattan"
+    }
+  ],
+  "roomTypeName": "Entire apartment",
+  "roomTypeDiscription": "A comfortable apartment in the heart of the city.",
+  "Address": [
+    {
+      "neighborhood_id": 1,
+      "street": "123 Main Street",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "postal_code": "10001",
+      "city": "New York",
+      "country": "USA",
+      "state": "NY"
+    }
+  ],
+  "Users": [
+    {
+      "user_id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "birth_date": { "$date": "1990-05-15T00:00:00Z" },
+      "age": 34,
+      "gender": "male",
+      "phone": "123-456-7890",
+      "email": "john.doe@example.com",
+      "Reviews": [
+        {
+          "review_id": 1,
+          "listing_id": 1,
+          "user_id": 1,
+          "rating": 4.5,
+          "comment": "Great place, very clean and well located.",
+          "review_date": { "$date": "2023-12-31T00:00:00Z" }
+        }
+      ],
+      "Bookings": [
+        {
+          "booking_id": 1,
+          "listing_id": 1,
+          "user_id": 1,
+          "checkIn": { "$date": "2024-06-01T00:00:00Z" },
+          "checkOut": { "$date": "2024-06-07T00:00:00Z" },
+          "noGuests": 2,
+          "Payments": [
+            {
+              "payment_id": 1,
+              "booking_id": 1,
+              "amount": 720.0,
+              "payment_date": { "$date": "2023-12-31T00:00:00Z" },
+              "payment_method": "credit card"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "amenity_name": "Wi-Fi, Kitchen",
+  "Hosts": [
+    {
+      "host_id": 1,
+      "address_id": 1,
+      "hostName": "Jane Smith",
+      "hostResponseTime": { "$date": "2023-12-01T00:00:00Z" },
+      "hostResponseDate": 10,
+      "hostListingsCount": 3
+    }
+  ],
+  "ListingPhotos": [
+    {
+      "listingPhoto_id": 1,
+      "listing_id": 1,
+      "photoURL": "https://example.com/photo1.jpg",
+      "description": "Living room"
+    }
+  ]
+}

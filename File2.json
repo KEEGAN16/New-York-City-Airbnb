@@ -1,0 +1,90 @@
+{
+  "name": "Modern Loft in City Center",
+  "guestIncluded": 4,
+  "price": 150.0,
+  "minimumNights": 3,
+  "availability": 45,
+  "numberOfReviews": 8,
+  "lastReview": { "$date": "2024-01-15T00:00:00Z" },
+  "Neighborhood": [
+    {
+      "neighborhood_id": 2,
+      "neighborhoodName": "City Center",
+      "boroughName": "Brooklyn"
+    }
+  ],
+  "roomTypeName": "Loft",
+  "roomTypeDiscription": "A modern loft with stunning city views.",
+  "Address": [
+    {
+      "neighborhood_id": 2,
+      "street": "456 Second Avenue",
+      "latitude": 40.7306,
+      "longitude": -73.9352,
+      "postal_code": "10002",
+      "city": "New York",
+      "country": "USA",
+      "state": "NY"
+    }
+  ],
+  "Users": [
+    {
+      "user_id": 2,
+      "first_name": "Alice",
+      "last_name": "Smith",
+      "birth_date": { "$date": "1985-07-20T00:00:00Z" },
+      "age": 38,
+      "gender": "female",
+      "phone": "987-654-3210",
+      "email": "alice.smith@example.com",
+      "Reviews": [
+        {
+          "review_id": 2,
+          "listing_id": 2,
+          "user_id": 2,
+          "rating": 5.0,
+          "comment": "Absolutely loved the place! Highly recommend.",
+          "review_date": { "$date": "2024-01-15T00:00:00Z" }
+        }
+      ],
+      "Bookings": [
+        {
+          "booking_id": 2,
+          "listing_id": 2,
+          "user_id": 2,
+          "checkIn": { "$date": "2024-07-01T00:00:00Z" },
+          "checkOut": { "$date": "2024-07-10T00:00:00Z" },
+          "noGuests": 4,
+          "Payments": [
+            {
+              "payment_id": 2,
+              "booking_id": 2,
+              "amount": 1350.0,
+              "payment_date": { "$date": "2024-01-15T00:00:00Z" },
+              "payment_method": "debit card"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "amenity_name": "Wi-Fi, Kitchen, Pool",
+  "Hosts": [
+    {
+      "host_id": 2,
+      "address_id": 2,
+      "hostName": "Bob Johnson",
+      "hostResponseTime": { "$date": "2024-01-05T00:00:00Z" },
+      "hostResponseDate": 15,
+      "hostListingsCount": 5
+    }
+  ],
+  "ListingPhotos": [
+    {
+      "listingPhoto_id": 2,
+      "listing_id": 2,
+      "photoURL": "https://example.com/photo2.jpg",
+      "description": "Bedroom with a view"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Charming Studio in Uptown",
+  "guestIncluded": 3,
+  "price": 120.0,
+  "minimumNights": 1,
+  "availability": 25,
+  "numberOfReviews": 10,
+  "lastReview": { "$date": "2024-02-15T00:00:00Z" },
+  "Neighborhood": [
+    {
+      "neighborhood_id": 3,
+      "neighborhoodName": "Uptown",
+      "boroughName": "Queens"
+    }
+  ],
+  "roomTypeName": "Studio",
+  "roomTypeDiscription": "A charming studio perfect for a weekend getaway.",
+  "Address": [
+    {
+      "neighborhood_id": 3,
+      "street": "789 Third Avenue",
+      "latitude": 40.755,
+      "longitude": -73.9742,
+      "postal_code": "10003",
+      "city": "New York",
+      "country": "USA",
+      "state": "NY"
+    }
+  ],
+  "Users": [
+    {
+      "user_id": 3,
+      "first_name": "Emily",
+      "last_name": "Johnson",
+      "birth_date": { "$date": "1992-03-25T00:00:00Z" },
+      "age": 32,
+      "gender": "female",
+      "phone": "456-789-0123",
+      "email": "emily.johnson@example.com",
+      "Reviews": [
+        {
+          "review_id": 3,
+          "listing_id": 3,
+          "user_id": 3,
+          "rating": 5.0,
+          "comment": "Loved the cozy ambiance and central location!",
+          "review_date": { "$date": "2024-02-15T00:00:00Z" }
+        }
+      ],
+      "Bookings": [
+        {
+          "booking_id": 3,
+          "listing_id": 3,
+          "user_id": 3,
+          "checkIn": { "$date": "2024-08-01T00:00:00Z" },
+          "checkOut": { "$date": "2024-08-05T00:00:00Z" },
+          "noGuests": 3,
+          "Payments": [
+            {
+              "payment_id": 3,
+              "booking_id": 3,
+              "amount": 480.0,
+              "payment_date": { "$date": "2024-02-15T00:00:00Z" },
+              "payment_method": "paypal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "amenity_name": "Wi-Fi, Air Conditioning",
+  "Hosts": [
+    {
+      "host_id": 3,
+      "address_id": 3,
+      "hostName": "Linda Brown",
+      "hostResponseTime": { "$date": "2024-02-01T00:00:00Z" },
+      "hostResponseDate": 12,
+      "hostListingsCount": 4
+    }
+  ],
+  "ListingPhotos": [
+    {
+      "listingPhoto_id": 3,
+      "listing_id": 3,
+      "photoURL": "https://example.com/photo3.jpg",
+      "description": "Cozy sleeping area"
+    }
+  ]
+}
