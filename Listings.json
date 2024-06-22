@@ -1,0 +1,51 @@
+[
+  {
+    "RoomTypes": { "$oid": "60c72b2f9af1f4c3f0e0b0a1" },
+    "Hosts": { "$oid": "60c72b2f9af1f4c3f0e0b0a2" },
+    "Adresses": { "$oid": "60c72b2f9af1f4c3f0e0b0a3" },
+    "name": "Cozy Apartment in City Center",
+    "guestIncluded": 2,
+    "price": 75.0,
+    "minimumNights": 2,
+    "availability": 30,
+    "numberOfReviews": 120,
+    "lastReview": { "$timestamp": { "t": 0, "i": 0 } },
+    "Bookings": [
+      {
+        "User_id": { "$oid": "60c72b2f9af1f4c3f0e0b0a4" },
+        "checkIn": { "$date": "2024-07-01T00:00:00Z" },
+        "checkOut": { "$date": "2024-07-05T00:00:00Z" },
+        "noGuests": 2,
+        "Payments": [
+          {
+            "amount": 150.0,
+            "payment_date": { "$timestamp": { "t": 0, "i": 0 } },
+            "payment_method": "Credit Card"
+          }
+        ]
+      }
+    ],
+    "Reviews": [
+      {
+        "User_id": { "$oid": "60c72b2f9af1f4c3f0e0b0a5" },
+        "rating": 4.5,
+        "comment": "Great place, very clean and comfortable.",
+        "review_date": { "$timestamp": { "t": 0, "i": 0 } }
+      }
+    ],
+    "ListingPhotos": [
+      {
+        "photoURL": "http://example.com/photo1.jpg",
+        "description": "Living room with a beautiful view."
+      }
+    ],
+    "Amenities": [
+      {
+        "amenityName": "Wi-Fi"
+      },
+      {
+        "amenityName": "Air Conditioning"
+      }
+    ]
+  }
+]

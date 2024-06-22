@@ -1,0 +1,10 @@
+[
+  {
+    "roomType_name": "Entire Apartment",
+    "description": "A fully furnished apartment with all amenities."
+  },
+  {
+    "roomType_name": "Private Room",
+    "description": "A private room in a shared apartment."
+  }
+]

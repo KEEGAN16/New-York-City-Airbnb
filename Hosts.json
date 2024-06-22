@@ -1,0 +1,16 @@
+[
+  {
+    "Adresses": { "$oid": "60c72b2f9af1f4c3f0e0b0a6" },
+    "hostName": "John Doe",
+    "hostResponseTime": { "$timestamp": { "t": 0, "i": 0 } },
+    "hostResponseRate": { "$timestamp": { "t": 0, "i": 0 } },
+    "hostResponseCount": { "$timestamp": { "t": 0, "i": 0 } }
+  },
+  {
+    "Adresses": { "$oid": "60c72b2f9af1f4c3f0e0b0a7" },
+    "hostName": "Jane Smith",
+    "hostResponseTime": { "$timestamp": { "t": 0, "i": 0 } },
+    "hostResponseRate": { "$timestamp": { "t": 0, "i": 0 } },
+    "hostResponseCount": { "$timestamp": { "t": 0, "i": 0 } }
+  }
+]

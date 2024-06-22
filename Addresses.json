@@ -1,0 +1,22 @@
+[
+  {
+    "neigbourhood_id": 1,
+    "street": "123 Main St",
+    "latitude": 40.7128,
+    "longtitude": -74.006,
+    "postal_code": "10001",
+    "city": "New York",
+    "country": "USA",
+    "state": "NY"
+  },
+  {
+    "neigbourhood_id": 2,
+    "street": "456 Elm St",
+    "latitude": 34.0522,
+    "longtitude": -118.2437,
+    "postal_code": "90001",
+    "city": "Los Angeles",
+    "country": "USA",
+    "state": "CA"
+  }
+]
